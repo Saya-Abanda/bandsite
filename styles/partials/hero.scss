@@ -1,0 +1,32 @@
+.hero {
+    /* image & text will act like a row */
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+&__image {
+    /* Adding the image */
+    background-image: url("");
+    /* will cover half of screen width */
+    width: 50%
+}
+
+&__title-1 {
+    position: relative;
+    bottom: 400px;
+    right: 40px;
+    text-align: center;
+    color: white;
+}
+
+&__h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.image {
+    background-image: url("./");
+    box-sizing: border-box;
+    height: 800px;
+
+}

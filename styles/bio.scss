@@ -1,0 +1,79 @@
+// * {
+//   /* placing Margin to left & right */
+//   margin: 0px 5px;
+
+//   padding: 0px;
+//   box-sizing: border-box;
+//   height:100%;
+//   width: 100%;
+
+  
+// .body {
+//     font-family: sans-serif;
+
+// }
+
+
+// .header{
+// /* Defining height  */
+//   flex-direction: row;
+//   height: 50px;
+//   display: flex;
+//   flex-direction: row;
+//   background-color: #323232;
+
+// }
+
+// .header__navBar{
+//   font-size: 4vw;
+//   background-color: #323232;
+//   height: 20px;
+//   width:20px;
+// }
+
+// .header__menu{
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between;
+//   align-items:center;
+//   gap: 15px;
+// }
+
+// .hero{
+// /* image & text will act like a row */
+// flex-direction: row;
+// box-sizing: border-box;
+// } 
+// .image{
+// /* Adding the image */
+// background-image: url("");
+//  /* will cover half of screen width */
+// width: 50%}
+// .main__title-1{
+// position: relative;
+// bottom: 400px;
+// right: 40px;
+// text-align: center;
+// color:white;
+// }
+// h2{
+// font-size:36px;
+// text-align: center;
+// }
+// .image{
+// background-image: url("./");
+// box-sizing: border-box;
+// height: 800px;
+
+// }
+
+
+// &__title-1{
+//   // will cover half of screen width
+//   width: 50%;
+// }
+// }
+
+@use "./partials/header" as *;
+@use "./partials/hero.scss" as *;
+
